@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {findPath,walkable,groundHeight} from '../src/navigation.js';
+const path=findPath({x:3.7,z:0},{x:7,z:9.4});
+assert.ok(path.length>0,'Both banks must be connected');
+assert.ok(path.filter(p=>p.z>1.5&&p.z<5.5).every(p=>p.x>=2.75&&p.x<=4.65),'Cross the stream only on the bridge');
+assert.ok(path.every(p=>walkable(p.x,p.z)));
+for(let i=1;i<path.length;i++)assert.ok(Math.abs(path[i].y-path[i-1].y)<=.28,'No teleporting between terrace heights');
+const garden=findPath({x:3.7,z:9.4},{x:-5.1,z:11.3});
+assert.ok(garden.some(p=>p.z>=14),'Enter the raised garden through its southern stairs');
+assert.ok(garden.every(p=>walkable(p.x,p.z)));
+assert.equal(findPath({x:3.7,z:0},{x:-1,z:3.7}).length,0,'Do not accept a destination in open water');
+assert.equal(walkable(5,-7),false,'The Pokémon center is an obstacle');
+assert.equal(groundHeight(3.7,3),.985,'Bridge deck elevation');
+const detour=findPath({x:3.7,z:0},{x:10,z:-10});
+assert.ok(detour.length>0&&detour.every(p=>walkable(p.x,p.z)),'Reach the rear street around the building');
+console.log('Navigation: bridge, elevation continuity, garden stairs, water rejection, building detour passed.');

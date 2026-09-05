@@ -1,0 +1,36 @@
+{
+  "repository": "https://github.com/Pokemon-3D-api/assets",
+  "commit": "429de1288cea0d43f5b4f56305d2276e94239d65",
+  "assets": [
+    {
+      "id": 132,
+      "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/429de1288cea0d43f5b4f56305d2276e94239d65/models/opt/regular/132.glb",
+      "bytes": 45348,
+      "sha256": "b5b46d5618ba46108ad1e3d92d388c93477e9e0aec4916eee0cec9a25623431a"
+    },
+    {
+      "id": 25,
+      "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/429de1288cea0d43f5b4f56305d2276e94239d65/models/opt/regular/25.glb",
+      "bytes": 146152,
+      "sha256": "6c09be51ffcf8caf45ae0980c9e11a0e963fc6fdbf111a200910982ba9bf8b2c"
+    },
+    {
+      "id": 66,
+      "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/429de1288cea0d43f5b4f56305d2276e94239d65/models/opt/regular/66.glb",
+      "bytes": 59372,
+      "sha256": "24c7b613d547d595ab0ec78a88570e5e63a15db1a79c69b7e0e2c309cc640ae1"
+    },
+    {
+      "id": 54,
+      "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/429de1288cea0d43f5b4f56305d2276e94239d65/models/opt/regular/54.glb",
+      "bytes": 49680,
+      "sha256": "6dafc814712170c46ec69b71043ff756674819db77871dd687fc486df72535a6"
+    },
+    {
+      "id": 384,
+      "url": "https://raw.githubusercontent.com/Pokemon-3D-api/assets/429de1288cea0d43f5b4f56305d2276e94239d65/models/opt/regular/384.glb",
+      "bytes": 77660,
+      "sha256": "1eed0a7edd0a31e7c4fbf5a45dd18da8ac91a28885e1186b82bc2798e7ca450d"
+    }
+  ]
+}

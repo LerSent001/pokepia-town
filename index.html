@@ -1,0 +1,10 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#9ab852"><title>Pokémon Pokopia · Fan Town</title></head><body>
+<canvas id="world" aria-label="Pokémon town"></canvas>
+<div id="loading"><span>Loading</span><div><i id="load-bar"></i></div><small id="load-message"></small></div>
+<div class="area"><img src="%BASE_URL%textures/pokopia-logo.png" alt="Pokémon Pokopia"></div>
+<div class="top-tools"><span class="frame"><b id="fps">—</b> FPS</span><button id="pause" aria-label="Pause" title="Pause">Ⅱ</button><button id="photo" aria-label="Take photo" title="Take photo"><svg viewBox="0 0 24 24"><path d="M8 6l1.5-2h5L16 6h4v13H4V6Z"/><circle cx="12" cy="12" r="4"/></svg></button></div>
+<div class="pokemon-list" id="roster" aria-label="Choose a Pokémon"></div>
+<button id="player-focus" class="selected-pokemon" aria-label="Follow your character"><svg class="arc" viewBox="0 0 160 160"><path d="M20 51 A69 69 0 0 1 140 51"/></svg><img id="selected-portrait" alt=""><span id="selected-name">You</span></button>
+<button id="home" class="back"><kbd>B</kbd>Reset view</button>
+<div id="toast" role="status"></div><div id="telemetry" hidden></div>
+<script type="module" src="/src/main.js"></script></body></html>
