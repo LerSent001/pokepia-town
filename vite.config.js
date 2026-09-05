@@ -1,0 +1,3 @@
+import {defineConfig} from 'vite';
+import fs from 'node:fs';
+export default defineConfig({base:process.env.GITHUB_ACTIONS?'/pokepia-town/':'/',resolve:{dedupe:['three']},server:{host:'127.0.0.1',port:5178,strictPort:true},plugins:[{name:'local-evidence',configureServer(server){server.middlewares.use('/__evidence',(req,res)=>{if(req.method!=='POST'){res.statusCode=405;res.end();return;}let body='';req.on('data',d=>{body+=d;if(body.length>2e6)req.destroy();});req.on('end',()=>{try{const data=JSON.parse(body);fs.appendFileSync(new URL('./evidence/runtime.jsonl',import.meta.url),JSON.stringify({recordedAt:new Date().toISOString(),...data})+'\n');res.end('ok');}catch{res.statusCode=400;res.end();}});});}}]});

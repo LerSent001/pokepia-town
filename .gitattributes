@@ -1,0 +1,8 @@
+*.blend binary
+*.glb binary
+*.png binary
+*.jpg binary
+*.wasm binary
+public/draco/* linguist-vendored
+third_party/* linguist-vendored
+tools/blender_mcp_addon.py linguist-vendored whitespace=-trailing-space

@@ -1,0 +1,491 @@
+{
+  "sha": "0c41526d8d4130c37c15e219c2c3737fa8cb4ad8",
+  "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/trees/0c41526d8d4130c37c15e219c2c3737fa8cb4ad8",
+  "tree": [
+    {
+      "path": ".env.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4776c10c1adce9507659d41055f20e0b47604cf2",
+      "size": 473,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/4776c10c1adce9507659d41055f20e0b47604cf2"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4c68ce5512a448f21ef81ae0948f43e9dbcb2d2",
+      "size": 49,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/c4c68ce5512a448f21ef81ae0948f43e9dbcb2d2"
+    },
+    {
+      "path": "CREDITS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c96430d78c901e7c21f8d6baab8bd3a40f3f98c",
+      "size": 1711,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/6c96430d78c901e7c21f8d6baab8bd3a40f3f98c"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e19776a656b50832e899a578b3513fcc2e75c2e5",
+      "size": 6462,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/e19776a656b50832e899a578b3513fcc2e75c2e5"
+    },
+    {
+      "path": "api",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "96e06ae9ac1be143650de65bedfcbe700495f86c",
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/trees/96e06ae9ac1be143650de65bedfcbe700495f86c"
+    },
+    {
+      "path": "api/_gh.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69298756b28312ea880fb9fce57cff6610a51679",
+      "size": 1983,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/69298756b28312ea880fb9fce57cff6610a51679"
+    },
+    {
+      "path": "api/_lb.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12f42fe365d21fb471700cd0d7241e3a3aaf9f82",
+      "size": 5717,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/12f42fe365d21fb471700cd0d7241e3a3aaf9f82"
+    },
+    {
+      "path": "api/_lib.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "450b51d484146f633e21ed0b76a576c92adfa2dd",
+      "size": 2852,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/450b51d484146f633e21ed0b76a576c92adfa2dd"
+    },
+    {
+      "path": "api/config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "142802eccf5db6242dd4c721925494727feb7533",
+      "size": 160,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/142802eccf5db6242dd4c721925494727feb7533"
+    },
+    {
+      "path": "api/contributions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4b3c7233680eea2b5e83f0b0c082963a5ad7001a",
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/trees/4b3c7233680eea2b5e83f0b0c082963a5ad7001a"
+    },
+    {
+      "path": "api/contributions/[username].js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37f162676aaccf5d0836ef9129fd36112a5fbfa7",
+      "size": 634,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/37f162676aaccf5d0836ef9129fd36112a5fbfa7"
+    },
+    {
+      "path": "api/leaderboard.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68e1169b16619a53fa7c7c9177e69531a4936348",
+      "size": 375,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/68e1169b16619a53fa7c7c9177e69531a4936348"
+    },
+    {
+      "path": "api/og",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e1851ef3a1e68c88064e644267eb431a238f4379",
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/trees/e1851ef3a1e68c88064e644267eb431a238f4379"
+    },
+    {
+      "path": "api/og/[username].js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aff0b74ab1a64b00a637dd5540b18f78913edd2c",
+      "size": 4402,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/aff0b74ab1a64b00a637dd5540b18f78913edd2c"
+    },
+    {
+      "path": "api/score.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bb34406b3fee3bf54ecaf8a7cff7b21c9807e0f",
+      "size": 1064,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/4bb34406b3fee3bf54ecaf8a7cff7b21c9807e0f"
+    },
+    {
+      "path": "api/share",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4cf5db445faf0c44db90e36480cbe3465eb54fe8",
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/trees/4cf5db445faf0c44db90e36480cbe3465eb54fe8"
+    },
+    {
+      "path": "api/share/[username].js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1b6a48734d52647eb612ca906d0f1f30a488d78",
+      "size": 1545,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/c1b6a48734d52647eb612ca906d0f1f30a488d78"
+    },
+    {
+      "path": "api/stars.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebe652d0cc11650e360a90cf5a865427f93a9bfd",
+      "size": 440,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/ebe652d0cc11650e360a90cf5a865427f93a9bfd"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ada8b4139340a2d10c3a637630873f4c31d840b9",
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/trees/ada8b4139340a2d10c3a637630873f4c31d840b9"
+    },
+    {
+      "path": "docs/flight.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9113380c675e2b69d3b6e94f90d915bee7bb19d3",
+      "size": 175465,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/9113380c675e2b69d3b6e94f90d915bee7bb19d3"
+    },
+    {
+      "path": "docs/start.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c42c5bd94fa5ec6384b743542736fe8fde00ad6a",
+      "size": 207982,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/c42c5bd94fa5ec6384b743542736fe8fde00ad6a"
+    },
+    {
+      "path": "index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a101c8e7fb29962307c92aaaa202ef024faa5dbb",
+      "size": 1962,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/a101c8e7fb29962307c92aaaa202ef024faa5dbb"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14408f02177960a42a0e09299c7c17f2ae800ef0",
+      "size": 102235,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/14408f02177960a42a0e09299c7c17f2ae800ef0"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ec5bac85bd9830a999a5aa0974d29f7b7a9aab5",
+      "size": 670,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/6ec5bac85bd9830a999a5aa0974d29f7b7a9aab5"
+    },
+    {
+      "path": "public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "34e020c73f71dc244430324eacc657ad77882e34",
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/trees/34e020c73f71dc244430324eacc657ad77882e34"
+    },
+    {
+      "path": "public/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a6b08fd60d98b593a3839b48bcf771c03630acce",
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/trees/a6b08fd60d98b593a3839b48bcf771c03630acce"
+    },
+    {
+      "path": "public/assets/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "748dc948b0adc7586096cfd65d0318a29ebc7fb7",
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/trees/748dc948b0adc7586096cfd65d0318a29ebc7fb7"
+    },
+    {
+      "path": "public/assets/models/LICENSE-quaternius.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "657f7740c85a77dd2f9d45e91238856a394b5ae1",
+      "size": 847,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/657f7740c85a77dd2f9d45e91238856a394b5ae1"
+    },
+    {
+      "path": "public/assets/models/b_large.glb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ac8e8ab6d111ff51cb38bdd963622720164b0f3",
+      "size": 2434972,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/2ac8e8ab6d111ff51cb38bdd963622720164b0f3"
+    },
+    {
+      "path": "public/assets/models/b_medium.glb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9878650f17534455956251b0fcddae275e32271",
+      "size": 1858336,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/f9878650f17534455956251b0fcddae275e32271"
+    },
+    {
+      "path": "public/assets/models/b_small.glb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f8edb201fc44f8b9eb7a4d4778cd1272e28c0e4",
+      "size": 1202148,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/8f8edb201fc44f8b9eb7a4d4778cd1272e28c0e4"
+    },
+    {
+      "path": "public/assets/models/bush.glb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84b4153c17e988a658e56d4093b0028d1b034c3f",
+      "size": 108520,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/84b4153c17e988a658e56d4093b0028d1b034c3f"
+    },
+    {
+      "path": "public/assets/models/plane.glb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83ca40487ce9c2bf50fc388cb9c6825cfaa60f4a",
+      "size": 52788,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/83ca40487ce9c2bf50fc388cb9c6825cfaa60f4a"
+    },
+    {
+      "path": "public/assets/models/prop_ac.glb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cd288eb3a4ef5454d88fdaf424a1cdfc4d64bb6",
+      "size": 33608,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/7cd288eb3a4ef5454d88fdaf424a1cdfc4d64bb6"
+    },
+    {
+      "path": "public/assets/models/tree1.glb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80bd662cc51f983986f4e201463dc3a729a6cd4a",
+      "size": 516044,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/80bd662cc51f983986f4e201463dc3a729a6cd4a"
+    },
+    {
+      "path": "public/assets/models/tree2.glb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0197de65879eb650247c8d56ac52da34489938cb",
+      "size": 446732,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/0197de65879eb650247c8d56ac52da34489938cb"
+    },
+    {
+      "path": "public/assets/models/tree3.glb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "828786b4bdb5224a8b3672f5e5d6cebe1c65bd93",
+      "size": 332440,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/828786b4bdb5224a8b3672f5e5d6cebe1c65bd93"
+    },
+    {
+      "path": "server",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7aa51806a7c0f38af19a64e7e2aee758a80d94d3",
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/trees/7aa51806a7c0f38af19a64e7e2aee758a80d94d3"
+    },
+    {
+      "path": "server/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e41d71184449113af746784c1a63c53d5f98d30",
+      "size": 4200,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/7e41d71184449113af746784c1a63c53d5f98d30"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7f3431c182bc0c8b0679cd41e281e0395bba1869",
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/trees/7f3431c182bc0c8b0679cd41e281e0395bba1869"
+    },
+    {
+      "path": "src/analytics.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f7d6f46a726b23bd205fbe7937b2c0cbef39c54",
+      "size": 426,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/7f7d6f46a726b23bd205fbe7937b2c0cbef39c54"
+    },
+    {
+      "path": "src/api.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff7ea316251d00315d4004666d556f459772d5b7",
+      "size": 2714,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/ff7ea316251d00315d4004666d556f459772d5b7"
+    },
+    {
+      "path": "src/game",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "911535394bd71d4e27b5b1a9376373f2ede33f8d",
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/trees/911535394bd71d4e27b5b1a9376373f2ede33f8d"
+    },
+    {
+      "path": "src/game/assets.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc77520f5922024b6fa93eb1dae00e7dfb233096",
+      "size": 2574,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/bc77520f5922024b6fa93eb1dae00e7dfb233096"
+    },
+    {
+      "path": "src/game/audio.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32f1255426ea40a278407f1670337e19774bf616",
+      "size": 9534,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/32f1255426ea40a278407f1670337e19774bf616"
+    },
+    {
+      "path": "src/game/collisions.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81d54564fcb7a2254ed1a294a180bbccf4864983",
+      "size": 1953,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/81d54564fcb7a2254ed1a294a180bbccf4864983"
+    },
+    {
+      "path": "src/game/explosion.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87e105156eda7baa14d3ac797b7a94b22e0d127c",
+      "size": 6659,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/87e105156eda7baa14d3ac797b7a94b22e0d127c"
+    },
+    {
+      "path": "src/game/game.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51f7a60f4ab37113725829b7788fa8bffe3b9b48",
+      "size": 11248,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/51f7a60f4ab37113725829b7788fa8bffe3b9b48"
+    },
+    {
+      "path": "src/game/input.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd82f458f5ef35c2f11b364c3cefe903342f8836",
+      "size": 4397,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/bd82f458f5ef35c2f11b364c3cefe903342f8836"
+    },
+    {
+      "path": "src/game/plane.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f42fbc87b4ade2d2e9b2dad859404924542936ec",
+      "size": 7940,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/f42fbc87b4ade2d2e9b2dad859404924542936ec"
+    },
+    {
+      "path": "src/game/scoring.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "132d549538feeaa8a7925ef07369e08a3f7fbe66",
+      "size": 1692,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/132d549538feeaa8a7925ef07369e08a3f7fbe66"
+    },
+    {
+      "path": "src/game/tilt.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cc88344c8e6aae385b40e08973dec0b666e3259",
+      "size": 2465,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/2cc88344c8e6aae385b40e08973dec0b666e3259"
+    },
+    {
+      "path": "src/game/types.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d93bd709ec6126084c62292a7779377047f8ae5f",
+      "size": 662,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/d93bd709ec6126084c62292a7779377047f8ae5f"
+    },
+    {
+      "path": "src/game/world.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3873bc34cbb2d8ee18dbd7b3eb57f5827f6c487e",
+      "size": 33371,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/3873bc34cbb2d8ee18dbd7b3eb57f5827f6c487e"
+    },
+    {
+      "path": "src/main.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d939586fbf8df65d226357c01790d7d58c4f84ba",
+      "size": 10794,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/d939586fbf8df65d226357c01790d7d58c4f84ba"
+    },
+    {
+      "path": "src/style.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d21ee740a2395d9c136ac0badb899ab45aa55d30",
+      "size": 14215,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/d21ee740a2395d9c136ac0badb899ab45aa55d30"
+    },
+    {
+      "path": "src/ui",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "929e7e0fb811558efa83051a86ccbe51b3965d98",
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/trees/929e7e0fb811558efa83051a86ccbe51b3965d98"
+    },
+    {
+      "path": "src/ui/hud.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be1b00efd698bbe54c64524b6d01719987bba3f1",
+      "size": 6141,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/be1b00efd698bbe54c64524b6d01719987bba3f1"
+    },
+    {
+      "path": "src/ui/screens.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc131d1787ffb88c50eeb14cc2ce329bfd29ab54",
+      "size": 15939,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/cc131d1787ffb88c50eeb14cc2ce329bfd29ab54"
+    },
+    {
+      "path": "tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67bbd78ef96d52c2fbcece3a544b173f2370b3e3",
+      "size": 305,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/67bbd78ef96d52c2fbcece3a544b173f2370b3e3"
+    },
+    {
+      "path": "vercel.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2818ab141fb45fb9e052c56d207945de095c789",
+      "size": 92,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/d2818ab141fb45fb9e052c56d207945de095c789"
+    },
+    {
+      "path": "vite.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7654b01dfbbb3b1f2333ff4d923e0f89551c9883",
+      "size": 384,
+      "url": "https://api.github.com/repos/anshaneja5/skyline-run/git/blobs/7654b01dfbbb3b1f2333ff4d923e0f89551c9883"
+    }
+  ],
+  "truncated": false
+}

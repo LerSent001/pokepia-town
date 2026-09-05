@@ -1,0 +1,19 @@
+{
+  "name": "pokepia-garden-town",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "repository": "github:LerSent001/pokepia-town",
+  "homepage": "https://lersent001.github.io/pokepia-town/",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5178",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5178",
+    "test": "node tests/navigation.test.mjs"
+  },
+  "dependencies": {
+    "three": "0.184.0",
+    "vite": "8.2.2"
+  }
+}
