@@ -13,7 +13,7 @@
     "test": "node tests/navigation.test.mjs"
   },
   "dependencies": {
-    "three": "0.184.0",
+    "three": "0.185.1",
     "vite": "8.2.2"
   }
 }
