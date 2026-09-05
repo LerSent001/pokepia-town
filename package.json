@@ -10,7 +10,8 @@
     "dev": "vite --host 127.0.0.1 --port 5178",
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1 --port 5178",
-    "test": "node tests/navigation.test.mjs"
+    "test": "node tests/navigation.test.mjs",
+    "privacy:check": "python3 tools/check_privacy.py"
   },
   "dependencies": {
     "three": "0.184.0",
