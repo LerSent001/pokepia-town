@@ -14,7 +14,7 @@
     "privacy:check": "python3 tools/check_privacy.py"
   },
   "dependencies": {
-    "three": "0.184.0",
+    "three": "0.186.1",
     "vite": "8.2.2"
   }
 }
